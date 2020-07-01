@@ -283,12 +283,8 @@ plugins_js  = ["custom"]
 ## Marketing
 ############################
 [marketing]
-<<<<<<< HEAD
   google_analytics = "UA-159366416-1"
   google_tag_manager = "GTM-PJC6T5M"
-=======
-  google_analytics = ""
-  google_tag_manager = ""
 
 ############################
 ## Content Management System
@@ -296,4 +292,3 @@ plugins_js  = ["custom"]
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = true
->>>>>>> fc482b49ae6d850db625e4cce19aeef9fcb0d99a
