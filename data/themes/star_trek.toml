@@ -1,0 +1,31 @@
+# Theme metadata
+name = "Star Trek"
+
+# Is theme light or dark?
+light = false
+
+# Primary (icons, etc.)
+primary = "rgb(255, 153, 51)" # orange
+
+# Menu
+menu_primary = "rgb(44, 44, 44)" # dark-grey
+menu_text = "#fff" # white
+menu_text_active = "rgb(255, 153, 51)" # orange
+menu_title = "#fff" # white
+
+# Home sections
+home_section_odd = "rgb(66, 66, 66)"
+home_section_even = "rgb(88, 88, 88)" # light-grey
+
+# Star Trek colours: https://github.com/leonawicz/trekcolors
+# yellow: rgb(255, 255, 153)
+# dark-yellow: rgb(255, 204, 1)
+# orange: rgb(255, 153, 1)
+# light-orange: rgb(255, 204, 102)
+# pink: rgb(204, 102, 153)
+# purple: rgb(204, 153, 204)
+# dark-purple: rgb(152, 153, 255)
+# blue: rgb(153, 204, 255)
+# dark-grey: rgb(44, 44, 44)
+# light-grey: rgb(132, 132, 132)
+# lighter-grey: rgb(204, 204, 204)

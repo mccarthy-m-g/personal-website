@@ -3,28 +3,44 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
+#[[main]]
+#  name = "HOME"
+#  url = "#about"
+#  weight = 10
 
 [[main]]
-  name = "Posts"
+  name = "ABOUT"
+  pre = "<i class='fas fa-globe-americas pr-1' style='color:rgb(255, 255, 153)'></i>"
+  url = "#about"
+  weight = 15
+
+[[main]]
+  name = "POSTS"
+  pre = "<i class='fas fa-globe-europe pr-1' style='color:rgb(255, 204, 102)'></i>"
   url = "#posts"
   weight = 20
 
 [[main]]
-  name = "Projects"
+  name = "PROJECTS"
+  pre = "<i class='fas fa-globe-africa pr-1' style='color:rgb(204, 102, 153)'></i>"
   url = "#projects"
   weight = 30
 
 [[main]]
-  name = "Publications"
+  name = "PUBLICATIONS"
+  pre = "<i class='fas fa-globe-asia pr-1' style='color:rgb(204, 153, 204)'></i>"
   url = "#featured"
   weight = 40
 
+#[[main]]
+#  name = "Resources"
+#  pre = "<i class='fas fa-th-large pr-1' style='color:rgb(65, 161, 74)'></i>"
+#  url = "/resources/"
+#  weight = 50
+
 [[main]]
-  name = "Contact"
+  name = "CONTACT"
+  pre = "<i class='fas fa-globe-americas pr-1' style='color:rgb(153, 204, 255)'></i>"
   url = "#contact"
   weight = 60
 
@@ -34,3 +50,35 @@
 #    name = "CV"
 #    url = "files/cv.pdf"
 #    weight = 70
+
+#  pre = "<i class='fas fa-chevron-circle-right pr-1' style='color:rgb(204, 102, 153)'></i>"
+
+[[main_right]]
+  name = "<i class='ai ai-cv' style='color:rgb(204, 204, 204); font-size: 1rem; line-height: 1.25'></i>"
+  post = ""
+  url = "curriculum-vitae/"
+  weight = 10
+
+#[[main_right]]
+#  name = "<i class='fab fa-github' style='color:rgb(204, 204, 204); font-size: 1rem; line-height: 1.25'></i>"
+#  post = ""
+#  url = "https://github.com/mccarthy-m-g"
+#  weight = 20
+
+[[main_right]]
+  name = "<i class='fab fa-twitter' style='color:rgb(204, 204, 204); font-size: 1rem; line-height: 1.25'></i>"
+  post = ""
+  url = "https://twitter.com/mccarthymg"
+  weight = 30
+
+[[main_right]]
+  name = "<i class='fas fa-rss-square' style='color:rgb(204, 204, 204); font-size: 1rem; line-height: 1.25'></i>"
+  post = ""
+  url = "https://michaelmccarthy.netlify.com/index.xml"
+  weight = 40
+
+[[main_right]]
+  name = "<span class='btn btn-outline-primary btn-sm d-none d-lg-inline-block' style='line-height: 1.15'><i class='fas fa-heart pr-1'></i>Donate</span>"
+  post = ""
+  url = "donate/"
+  weight = 50

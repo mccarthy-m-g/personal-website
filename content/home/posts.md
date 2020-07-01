@@ -5,10 +5,10 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 15  # Order that this section will appear.
 
-title = "Recent Posts"
-subtitle = ""
+title = "Posts"
+subtitle = "<i class=\"fas fa-rss-square pr-1\" style=\"color:$sta-primary\"></i> [Subscribe](https://michaelmccarthy.netlify.app/post/index.xml)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

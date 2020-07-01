@@ -5,10 +5,10 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 90  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
-title = "Recent Publications"
-subtitle = ""
+title = "Publications"
+subtitle = "<i class='fas fa-rss-square pr-1' style='color:rgb(178,178,178)'></i> <a href='https://michaelmccarthy.netlify.app/publication/index.xml'>Subscribe</a><!-- <br> <i class='fab fa-github pr-1' style='color:rgb(178,178,178)'></i> <a href='https://github.com/mccarthy-m-g' target='_blank'>GitHub</a><br><i class='ai ai-osf pr-1' style='color:rgb(178,178,178)'></i> <a href='https://osf.io/hjcz7/' target='_blank'>OSF</a> -->"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -66,7 +66,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}

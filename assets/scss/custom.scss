@@ -1,0 +1,459 @@
+/*************************************************
+ *  _root.scss Academic's Core
+ **************************************************/
+
+ blockquote {
+  color: rgb(255, 255, 255);
+  background-color: rgb(88, 88, 88);
+  border-left: .25rem solid $sta-primary;
+}
+
+hr {
+  border-top: 1px solid rgb(204, 204, 204) !important;
+}
+
+/*************************************************
+ *  _root.scss Footer
+ **************************************************/
+
+footer a.back-to-top i {
+  color: $sta-primary;
+}
+
+/*************************************************
+ *  _root.scss Tables
+ **************************************************/
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  border-top: 1px solid rgb(204, 204, 204);
+}
+
+table > thead > tr > th {
+  border-bottom: 2px solid rgb(204, 204, 204);
+}
+
+table > tbody + tbody {
+  border-top: 2px solid rgb(204, 204, 204);
+}
+
+/* Table Striped */
+table > tbody > tr > td,
+table > tbody > tr > th {
+  background-color: rgb(44, 44, 44) !important;
+}
+
+/* Table Hover */
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: $sta-dark-home-section-even !important;
+}
+
+/*************************************************
+ *  _root.scss Article Alerts (Shortcode) and Asides (Mmark)
+ **************************************************/
+
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  color: rgb(51, 102, 204);
+}
+
+div.alert-warning > div:first-child::before {
+  color: rgb(102, 68, 102);
+}
+
+.article-style aside,
+.alert-note {
+  color: rgb(51, 102, 204);
+  background-color: rgb(153, 204, 255);
+  border-color: rgb(51, 102, 204);
+}
+
+.alert-warning {
+  color: rgb(102, 68, 102);
+  background-color: rgb(204, 153, 204);
+  border-color: rgb(102, 68, 102);
+}
+
+ /*************************************************
+ *  _nav.scss Navbar styling
+ **************************************************/
+
+.navbar {
+  letter-spacing: 1px;
+
+    .navbar-nav {
+
+    .nav-link {
+      color: rgb(204, 204, 204); // search icon colour
+    }
+
+  }
+}
+
+.dark .navbar {
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(44, 44, 44, .11);
+}
+
+.navbar-toggler {
+  color: rgb(204,204,204) !important;
+}
+
+/*************************************************
+ *  _search.scss
+ **************************************************/
+
+.dark .search-results {
+  background-color: $sta-menu-primary;
+}
+
+.dark .search-header {
+  background-color: $sta-menu-primary;
+}
+
+#search-box::before {
+  color: $sta-dark-home-section-even;
+  opacity: 1.0;
+}
+
+#search-box #search-query:focus {
+  border-color: $sta-dark-home-section-even;
+}
+
+#search-box #search-query {
+  border-color: $sta-dark-home-section-even;
+}
+
+.search-hit em {
+  font-style: normal;
+  background-color: rgb(255, 204, 102); // light-orange
+  color: $sta-primary;
+  border-bottom: 1px solid $sta-primary;
+}
+
+.form-control:focus {
+  border-color: $sta-primary;
+  box-shadow: 0 0 0 .2rem $sta-primary;
+}
+
+/* Algolia search input */
+.dark .ais-search-box--input {
+  background-color: $sta-dark-home-section-odd;;
+}
+
+.dark #search-query {
+  background-color: $sta-dark-home-section-odd;;
+}
+
+/*************************************************
+ *  _content.scss
+ **************************************************/
+
+.dark .page-subtitle,
+.dark .article-metadata {
+  color: rgb(204, 204, 204);
+}
+
+.dark .text-muted {
+  color: rgb(204, 204, 204) !important;
+}
+
+.dark .experience .text-muted {
+  color: rgb(204, 204, 204) !important;
+}
+
+.dark .experience .card-text,
+.dark .experience .card-text p {
+  color: rgb(255, 255, 255) !important;
+  padding: 0.75rem 0rem 0.75rem;
+}
+
+.dark .article-metadata a {
+  color: $sta-primary;
+}
+
+.dark .li-cite-author a {
+  color: rgb(255, 255, 255);
+}
+
+.dark ul.share li a {
+  color: rgb(204, 204, 204);
+}
+
+.dark .author-card .card-title,
+.dark .author-card .card-title a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.dark .author-card .card-subtitle {
+  color: rgb(132, 132, 132) !important;
+}
+
+.dark .author-card .card-text {
+  color: rgb(204, 204, 204) !important;
+}
+
+/*************************************************
+ *  _widgets.scss Page Builder: sections and widgets
+ **************************************************/
+
+/* Override dark colors that may be inherited from body.dark */
+.home-section.dark,
+.home-section.dark h1,
+.home-section.dark h2,
+.home-section.dark h3,
+.home-section.dark a:not(.btn) {
+  color: rgb(255, 255, 255);
+}
+
+/* color links in dark sections to separate them from text */
+.home-section.dark a:not(.btn):not(.hero-cta-alt) {
+  text-decoration: none;
+  color: $sta-primary;
+}
+
+/* underline links in dark sections when hovering */
+.home-section.dark a:not(.btn):not(.hero-cta-alt):hover {
+  text-decoration: underline;
+}
+
+/*************************************************
+ *  _docs.scss
+ **************************************************/
+
+.docs .body-footer {
+  border-top: 1px solid white;
+  color: white;
+}
+
+.docs-sidebar {
+  order: 0;
+  border-bottom: 1px solid $sta-dark-home-section-even // rgb(88, 88, 88)
+}
+
+@media (min-width:768px) {
+  .docs-sidebar {
+    border-right: 1px solid $sta-dark-home-section-even // rgb(88, 88, 88)
+  }
+}
+
+@media (min-width:1200px) {
+  .docs-sidebar {
+    border-right: 1px solid $sta-dark-home-section-even // rgb(88, 88, 88)
+  }
+}
+
+.docs-toggle {
+  color: white;
+}
+
+.docs-toggle:hover {
+  color: white;
+}
+
+.docs-toc-link:hover {
+  color: $sta-primary;
+}
+
+#TableOfContents li a,
+.toc-top li a {
+  color: rgb(132, 132, 132);
+}
+
+/*************************************************
+ *  _dark.scss Dark themed components
+ **************************************************/
+
+body.dark,
+.dark .docs-toc-link,
+.dark .docs-sidebar .nav > li:not(.active) > a,
+.dark .modal button.close,
+.dark input,
+.dark .form-control,
+.dark .form-control:focus {
+  color: rgb(255, 255, 255);
+  background: $sta-dark-home-section-odd;
+  word-spacing: 1px;
+}
+
+// placeholder text color for contact form and search
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: rgb(132, 132, 132);
+}
+
+.dark .form-control {
+  background-color: $sta-dark-home-section-odd;
+  border-color: $sta-dark-home-section-even;
+}
+
+.dark .form-control:focus {
+  background-color: $sta-dark-home-section-odd;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: rgb(255, 255, 255);
+}
+
+.dark pre,
+.dark code {
+  color: $sta-primary;
+  background-color: $sta-menu-primary;
+}
+
+.dark pre {
+  background-color: $sta-menu-primary;
+  border-color: $sta-menu-primary;
+}
+
+.dark .portrait-title h3,
+.dark ul.ul-edu li .description p.institution,
+.dark .pub-icon,
+.dark .talk-metadata {
+  color: rgb(204, 204, 204);
+}
+
+.dark .pagination li > a, .pagination li > span {
+  background-color: $sta-menu-primary;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.dark .card {
+  background: $sta-menu-primary;
+}
+
+.dark select {
+  background: $sta-menu-primary;
+  color: rgb(255, 255, 255);
+}
+
+.dark .badge-light {
+  color: rgba(255, 255, 255, .66); // equivalent to rgb(204, 204, 204)
+  background: rgba(255, 255, 255, .19); // equivalent to rgb(102, 102, 102)
+}
+
+.dark .badge-light[href]:focus,
+.dark .badge-light[href]:hover {
+  background: rgba(255, 255, 255, .35); // equivalent to rgb(132, 132, 132)
+}
+
+.dark a.badge:focus,
+.dark a.badge:hover {
+  color: rgba(255, 255, 255, .66); // equivalent to rgb(204, 204, 204)
+}
+
+/******************************************************************************
+ *  custom.scss (my own code; not overriding anything)
+ *****************************************************************************/
+
+/*************************************************
+ *  Code highlighting
+ **************************************************/
+
+.hljs {
+  display:block;
+  overflow-x:auto;
+  padding: 0.5em;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: rgb(132, 132, 132); // light-grey
+  font-style:normal
+}
+
+.hljs-keyword,
+.hljs-function {
+  color: rgb(153, 204, 255); // blue
+}
+
+.hljs-fun-param {
+  color: rgb(255, 204, 153); // peach-orange
+}
+
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition {
+  color: rgb(204, 153, 204) // purple
+}
+
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  font-weight: 500;
+  color: rgb(204, 102, 153) // pink
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color: rgb(255, 204, 102); // light-orange
+}
+
+.hljs-pipe, .hljs-assign {
+    font-weight: 500;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-built_in {
+  color: rgb(102, 153, 204) // dark-blue
+
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-class .hljs-title {
+  color: white //
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight:bold
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link {
+  color: white
+}
+
+.hljs-deletion {
+  color: white
+}
+
+.hljs-formula {
+  background: white
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: rgb(153, 204, 255); // blue
+}
+
+.hljs-emphasis {
+  font-style:italic
+}
+
+/*************************************************
+ *  Comments
+ **************************************************/
+
+ #disqus-comments {
+  margin: .5rem;
+}

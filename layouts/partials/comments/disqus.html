@@ -1,0 +1,51 @@
+{{ if site.Params.comments.disqus.shortname }}
+<div class="text-center" id="disqus-container">
+  <button class="btn btn-outline-primary" id="disqus-button" onclick="showComments()">Show comments</button>
+  <div id="disqus-comments">
+  {{ $isDummyName := eq . "{{site.Params.comments.disqus.shortname}}" }}
+  {{ $isServer := $.Site.IsServer }}
+  {{ if or $isDummyName $isServer }}
+    <p>Disqus comments are disabled.</p>
+    <script>
+      function showComments() {
+        // Remove button
+        var disqusButton = document.getElementById('disqus-button');
+        disqusButton.parentNode.removeChild(disqusButton);
+        // Un-hide comments
+        var disqusComments = document.getElementById('disqus-comments');
+        disqusComments.style.display = 'block';
+      }
+    </script>
+  {{ else }}
+  <div id="disqus_thread"></div>
+  <script>
+  function showComments() {
+    let disqus_config = function () {
+      {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
+      {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
+      {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
+    };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + {{site.Params.comments.disqus.shortname}} + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  // Remove button
+  var disqusButton = document.getElementById('disqus-button');
+  disqusButton.parentNode.removeChild(disqusButton);
+  // Un-hide comments
+  var disqusComments = document.getElementById('disqus-comments');
+  disqusComments.style.display = 'block';
+}
+</script>
+{{ end }}
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+{{end}}
+</div>
