@@ -25,6 +25,8 @@ image:
 projects: []
 ---
 
+**Update: I have improved the functions in this post and turned them into an R package. The source code and installation instructions are available [here](https://github.com/mccarthy-m-g/embedr).**
+
 I am currently writing a comprehensive educational resource of all things music called [The Musican's Compendium](https://musicianscompendium.netlify.com) using [bookdown](https://github.com/rstudio/bookdown), an R package that can generate print-ready books and ebooks from R Markdown documents. My intention is to publish the book in web- and print-based formats, and to have audio and video supplements in the web version.
 
 Fortunately, bookdown makes the former task easy to do. Simply run `bookdown::render_book("index.Rmd")` and HTML, PDF, and EPUB versions will be generated for you. And, for the most part, you won't need to worry about typesetting the PDF and EPUB versions; bookdown has you covered.
