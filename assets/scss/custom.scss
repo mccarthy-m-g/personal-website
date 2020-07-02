@@ -16,7 +16,9 @@ hr {
  *  _root.scss Footer
  **************************************************/
 
-footer a.back-to-top i {
+footer a.back-to-top i,
+.dark footer a.back-to-top i,
+.dark .docs .body-footer {
   color: $sta-primary;
 }
 
