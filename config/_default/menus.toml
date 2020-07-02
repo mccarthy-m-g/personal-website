@@ -29,7 +29,7 @@
 [[main]]
   name = "PUBLICATIONS"
   pre = "<i class='fas fa-globe-asia pr-1' style='color:rgb(204, 153, 204)'></i>"
-  url = "#featured"
+  url = "#publications"
   weight = 40
 
 #[[main]]
