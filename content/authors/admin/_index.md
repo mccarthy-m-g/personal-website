@@ -1,10 +1,6 @@
 ---
 # Display name
-<<<<<<< HEAD
-name: Michael McCarthy
-=======
-title: Nelson Bighetti
->>>>>>> fc482b49ae6d850db625e4cce19aeef9fcb0d99a
+title: Michael McCarthy
 
 # Username (this should match the folder name)
 authors:
