@@ -22,3 +22,7 @@ Please visit: https://michaelmccarthy.netlify.com
 | Purple         | ![#cc99cc](https://via.placeholder.com/10/cc99cc?text=+) `#cc99cc` |
 | Dark Blue      | ![#6699cc](https://via.placeholder.com/10/6699cc?text=+) `#6699cc` |
 | Blue           | ![#99ccff](https://via.placeholder.com/10/99ccff?text=+) `#99ccff` |
+
+## Install Method
+
+This website was created by forking the `academic-kickstart` repository.
