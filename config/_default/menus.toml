@@ -74,7 +74,7 @@
 [[main_right]]
   name = "<i class='fas fa-rss-square' style='color:rgb(204, 204, 204); font-size: 1rem; line-height: 1.25'></i>"
   post = ""
-  url = "https://michaelmccarthy.netlify.com/index.xml"
+  url = "https://michaelmccarthy.netlify.app/index.xml"
   weight = 40
 
 [[main_right]]
