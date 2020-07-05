@@ -5,7 +5,7 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Publications"
 subtitle = "<i class='fas fa-rss-square pr-1' style='color:rgb(178,178,178)'></i> <a href='https://michaelmccarthy.netlify.app/publication/index.xml'>Subscribe</a><!-- <br> <i class='fab fa-github pr-1' style='color:rgb(178,178,178)'></i> <a href='https://github.com/mccarthy-m-g' target='_blank'>GitHub</a><br><i class='ai ai-osf pr-1' style='color:rgb(178,178,178)'></i> <a href='https://osf.io/hjcz7/' target='_blank'>OSF</a> -->"
