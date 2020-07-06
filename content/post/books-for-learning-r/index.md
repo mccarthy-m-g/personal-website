@@ -21,7 +21,7 @@ image:
 projects: []
 ---
 
-This post is a collection of free books for learning R, covering topics for new and advanced users. I will try to keep it updated as I come across new resources. If there are any resources you think I should add, please leave a [comment below](#disqus_thread) or [DM me](https://twitter.com/messages/compose?recipient_id=2226103087) on Twitter.
+This post is a collection of free books for learning R, covering topics for new and advanced users. I will try to keep it updated as I come across new resources. If there are any resources you think I should add, please leave a comment below or [DM me](https://twitter.com/messages/compose?recipient_id=2226103087) on Twitter.
 
 ## Table of Contents
 - [Essential Reading](#essential-reading)
