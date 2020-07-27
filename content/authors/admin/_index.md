@@ -30,7 +30,7 @@ education:
   courses:
   - course: MSc in Psychology (Brain and Cognitive Science)
     institution: University of Calgary
-    year: Aug. 2020
+    year: In Progress
   - course: BA in Honours Psychology
     institution: University of the Fraser Valley
     year: 2019
