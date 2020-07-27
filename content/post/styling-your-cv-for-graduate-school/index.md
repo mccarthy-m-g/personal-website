@@ -47,15 +47,15 @@ Speaking of emailing potential supervisors, you should send them an email expres
 - Informing you of other potential supervisors who might be a better fit for you
 - Learning insider information that isn't posted on the program or your potential supervisor's website
 
-Because of the value your first email to your potential supervisor can have, you should put serious thought and effort into it. Below is a template I created while drafting my own emails to potential supervisors in 2019. Keep in mind that (1) it is fine to stray from this template; (2) the words in this template should be used sincerely; (3) this email should be sent to no more than three potential supervisors within the same program.
+Because of the value your first email to your potential supervisor can have, you should put serious thought and effort into it. Below is a template I created while drafting my own emails to potential supervisors in 2019. Note that italicized words are placeholders describing what you need to fill in. Keep in mind that (1) it is fine to stray from this template; (2) the words in this template should be used sincerely; (3) this email should be sent to no more than three potential supervisors within the same program.
 
->Subject: *StartingSemester* Prospective MSc/PhD Student Supervisor Inquiry
+>Subject: *Starting Semester* Prospective MSc/PhD Student Supervisor Inquiry
 >
 >Dear Dr. LastName,
 >
 >**Strong opener (why are you writing to them?):**
 >
->I am writing to you because I am applying to University’s MSc/PhD program in Subject (Subject Stream; if applicable) and am wondering if you would be willing to supervise me. I am pursuing graduate studies to prepare for a career as a CareerTitle, and am applying to the program because I am especially interested in working with you.
+>I am writing to you because I am applying to University’s MSc/PhD program in Subject (Subject Stream; if applicable) and am wondering if you would be willing to supervise me. I am pursuing graduate studies to prepare for a career as a *Career Title*, and am applying to the program because I am especially interested in working with you.
 >
 >**Show interest in their work (why are you writing to them, specifically?):**
 >
@@ -63,7 +63,7 @@ Because of the value your first email to your potential supervisor can have, you
 >
 >**Demonstrate fit (why should they be interested in you?):**
 >
->I think I would make a great fit for the program and your lab! In addition to my educational experience in *2-3 subjects important working in your potential supervisor's lab*, I have had research experience through *several research projects and my honours thesis*, and am proficient in *valuable tools such as R or Python*.
+>I think I would make a great fit for the program and your lab! In addition to my educational experience in *2-3 subjects important for working in your potential supervisor's lab*, I have had research experience through *several research projects and my honours thesis*, and am proficient in *valuable tools such as R or Python*.
 >
 >**Call to action (they're interested in you, where can they can learn more?):**
 >
@@ -156,7 +156,7 @@ Guide: [Microsoft Word](https://support.office.com/en-us/article/align-text-left
 
 #### Font
 
-Font determines the style of a typeface.
+Font determines the style of a typeface. I recommend using a standard system font such as Helvetica, Arial, or Times New Roman---these fonts are easy to read and, because they are so commonly used, they will not distract your audience from the content of your CV. That said, here is a list of [free fonts](https://www.websiteplanet.com/blog/best-free-fonts/) for commercial and personal use if you need unique fonts for other documents. 
 
 Guide: [Microsoft Word](https://docs.microsoft.com/en-us/typography/fonts/windows_10_font_list), [Apple Pages](https://support.apple.com/en-ca/guide/pages/tane4dc5cd05/mac).
 
