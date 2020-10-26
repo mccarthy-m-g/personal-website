@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Honours & Awards" # Accomplish&shy;ments
+title = "Honours & Awards" # Accomplishments
 subtitle = ""
 
 # Date format
@@ -17,7 +17,6 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-
 [[item]]
   organization = "Alberta Student Aid"
   organization_url = "https://studentaid.alberta.ca"
@@ -25,13 +24,23 @@ date_format = "Jan 2006"
   url = "https://iac01.ucalgary.ca/FGSA/Public/SpecificAward.aspx?AwardID=5623"
   certificate_url = ""
   date_start = "2020-08-31"
-  date_end = ""
+  date_end = "2021-08-31"
   description = "Amount: $11,000"
-  
+
+[[item]]
+  organization = "University of Calgary"
+  organization_url = "https://www.ucalgary.ca"
+  title = "BRAIN CREATE Scholarship"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-06-01"
+  date_end = "2020-08-31"
+  description = "Amount: $4500"
+
 # [[item]]
 #   organization = "Canadian Institutes of Health Research"
 #   organization_url = "https://cihr-irsc.gc.ca/e/193.html"
-#   title = "Canada Graduate Scholarships-Master's Program"
+#   title = "Canada Graduate Scholarships - Master's Program"
 #   url = "https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp"
 #   certificate_url = ""
 #   date_start = ""

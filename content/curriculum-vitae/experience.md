@@ -18,12 +18,30 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Masters Student"
+  company = "Brain Dynamics Lab"
+  company_url = "https://www.braindynamics.ca"
+  location = "University of Calgary"
+  date_start = "2020-09-01"
+  date_end = ""
+  description = ""
+  
+[[experience]]
+  title = "Program Reviewer"
+  company = "CUPS Calgary"
+  company_url = "https://www.cupscalgary.com"
+  location = "Calgary AB, Canada"
+  date_start = "2020-09-01"
+  date_end = ""
+  description = ""
+
+[[experience]]
   title = "Lab Manager"
   company = "Bias Investigation and Applied Science Lab"
   company_url = ""
   location = "University of the Fraser Valley"
   date_start = "2019-06-01"
-  date_end = ""
+  date_end = "2020-05-01"
   description = ""
 
 [[experience]]
@@ -32,8 +50,8 @@ date_format = "Jan 2006"
   company_url = ""
   location = "University of the Fraser Valley"
   date_start = "2017-09-01"
-  date_end = ""
-  description = """"""
+  date_end = "2020-05-01"
+  description = ""
 
 [[experience]]
   title = "Research Assistant"
@@ -42,7 +60,7 @@ date_format = "Jan 2006"
   location = "University of the Fraser Valley"
   date_start = "2018-01-01"
   date_end = "2018-04-01"
-  description = """"""
+  description = ""
   
 [[experience]]
   title = "Research Assistant"
@@ -51,6 +69,6 @@ date_format = "Jan 2006"
   location = "University of the Fraser Valley"
   date_start = "2017-10-01"
   date_end = "2018-04-01"
-  description = """"""
+  description = ""
   
 +++

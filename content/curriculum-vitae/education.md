@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "University of Calgary"
   company_url = "https://www.ucalgary.ca"
   location = "Calgary AB, Canada"
-  date_start = "2020-08-31"
+  date_start = "2020-09-01"
   date_end = ""
   description = ""
 

@@ -46,7 +46,7 @@ subtitle = ""
   icon = "desktop"
   icon_pack = "fas"
   name = "Data Analysis"
-  description = "<span>&#x2605; &#x2605; &#x2605;</span>"
+  description = "<span>&#x2605; &#x2605; &#x2605; &#x2605;</span>"
   
 [[feature]]
   icon = "chart-bar"

@@ -14,14 +14,14 @@ role: Researcher, Data Scientist, Musician
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Brain Dynamics Lab
+  url: "https://www.braindynamics.ca"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Thank you for visiting my site! If you enjoyed this content, thought it was interesting, or found it helpful, you can keep up to date with my work by following me on Twitter or GitHub, or by subscribing to any of the RSS feeds on the homepage. You can support my work by sharing it with others, or by making a [donation](/donate).
 
 interests:
-- Brain structure and function
+- Brain structure, function, and dynamics
 - The auditory system
 - Neuroplasticity
 - Everything music
