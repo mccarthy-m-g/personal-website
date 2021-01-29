@@ -53,3 +53,4 @@ subtitle = ""
 Below is an unordered list of blogs, websites, and other sources that I read:
 
 - [R-bloggers](https://www.r-bloggers.com)
+- [The 20% Statistician](http://daniellakens.blogspot.com)
